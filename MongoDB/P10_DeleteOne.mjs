@@ -1,5 +1,5 @@
 import {MongoClient} from "mongodb";
-const url = "mongodb+srv://fulopzsolt1999:<pw>@t14-fzs.cihzo09.mongodb.net/";
+const url = "mongodb+srv://fulopzsolt1999:qwe123@t14-fzs.cihzo09.mongodb.net/";
 async function deleteData() {
    try {
       const client = await MongoClient.connect(url);
